@@ -1,8 +1,6 @@
 server:
   port: 8100
 spring:
-  application:
-    name: product-stock-service
   datasource:
     url: jdbc:mysql://localhost:3307/pr_stock      
     username: admin_

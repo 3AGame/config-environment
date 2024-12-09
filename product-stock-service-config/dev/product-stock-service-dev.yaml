@@ -14,3 +14,6 @@ spring:
     properties:
       hibernate:
         format-sql: true    
+my-values:
+  name: MENTOS*
+  description: Драже жевательное 12415

@@ -14,6 +14,13 @@ spring:
     properties:
       hibernate:
         format-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+        
 my-values:
   name: MENTOS*
   description: Драже жевательное 12415
